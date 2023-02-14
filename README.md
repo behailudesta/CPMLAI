@@ -7,6 +7,7 @@ Behailu Desta
 The Grand Ethiopian Renaissance Dam (GERD), is a gravity dam on the Blue Nile River in Ethiopia under construction since 2011. The dam is in the Benishangul-Gumuz Region of Ethiopia, about 45 km (28 mi) east of the border with Sudan.
 
 The primary purpose of the dam is electricity production to relieve Ethiopia's acute energy shortage and for electricity export to neighbouring countries. With a planned installed capacity of 6 gigawatts, the dam will be the largest hydroelectric power plant in Africa when completed,as well as among the 20 largest in the world with planned maximum storage capacity of 74 billion cubic meters of water.
+![plot](./images/dam_1.jpeg)
 
 #### Rationale
 The energy generating capacity of Hydroelectric station is directly affected by the amount of water in the reservoir dam, which is directly impacted by the weather/climate conditions of the surrounding area and the river basins feeding to the Dam. So, climate forecasting for this project will help for power budget planning, how much billion meter cube water to keep/release from the dam, estimate the energy production of the station, plan for best time to schedule for maintenance of the station, over all macro/micro economic planning of the region as its tied to energy.
