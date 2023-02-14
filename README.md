@@ -1,0 +1,52 @@
+### Project Title
+GERD weather forecast
+**Author**
+Behailu Desta
+#### Executive summary
+The Grand Ethiopian Renaissance Dam (GERD), is a gravity dam on the Blue Nile River in Ethiopia under construction since 2011. The dam is in the Benishangul-Gumuz Region of Ethiopia, about 45 km (28 mi) east of the border with Sudan.
+
+The primary purpose of the dam is electricity production to relieve Ethiopia's acute energy shortage and for electricity export to neighbouring countries. With a planned installed capacity of 6 gigawatts, the dam will be the largest hydroelectric power plant in Africa when completed,as well as among the 20 largest in the world with planned maximum storage capacity of 74 billion cubic meters of water.
+
+#### Rationale
+The energy generating capacity of Hydroelectric station is directly affected by the amount of water in the reservoir dam, which is directly impacted by the weather/climate conditions of the surrounding area and the river basins feeding to the Dam. So, climate forecasting for this project will help for power budget planning, how much billion meter cube water to keep/release from the dam, estimate the energy production of the station, plan for best time to schedule for maintenance of the station, over all macro/micro economic planning of the region as its tied to energy.
+#### Research Question
+Forecast temperature and precipitation on river water sheds that can feed to the GERD dam, and prepare for plan accordingly.
+
+Temperature affects the rate of evaporation from the water surface and transpiration from vegetation along the river. As the temperature increases, so does the rate of evaporation and transpiration, leading to a decrease in the amount of water in the rivers basins of GERD. Which can result in reduced water levels in the dam there by electric generation.
+
+Precipitation, on the other hand, directly affects the amount of water in the rivers. Increased precipitation, such as heavy rainfall, can lead to higher water levels and potentially cause flooding and may overwhelm the dam's storage/release capacity. On the other hand, a lack of precipitation can lead to lower water levels and drought conditions.
+
+In addition, changes in precipitation patterns and amounts can have a long-term impact on the water cycle and the overall health of the river watersheds and there by the dam and its energey generation.
+
+Overall, temperature and precipitation play important roles in determining the water levels and health of a river watersheds feeding the GERD dam, and changes in these factors can have far-reaching in energy generation and ripple effects in the over all socio-economic and situation of the region.
+
+Predict/forecast, The average Temperature, Precipitation, * Hydrometric Data* , climate prediction for GERD. The final result comes with major forecasting in locations in the GERD Basin.
+
+#### Data Sources
+World Weather for Water Data Service (W3S) from a repository of University of Guelph, is a Data as a Service (DaaS) platform that allows me to download climate (precipitation, maximum temperature & minimum temperature) data for the predefined watershed along the GERD basin to develop data-driven rainfall-runoff models. I got data from 2000 and 2019 from this platform.
+
+University of Guelph https://www.uoguelph.ca/watershed/w3s/ Data collected to GERD basin area, shown in the figure below, the red dot is the location of the GERD (Dam).
+
+Data Source : University of Guelph https://www.uoguelph.ca/watershed/w3s/
+
+Downloaded into multiple CSVs https://drive.google.com/drive/folders/1a1h0ZZYdGmd9dJb9ecaDezkhdN1wLvJC
+
+#### Methodology
+This a timeseries: Data prep, Data analysis and visualizations (trend/seasonality), testing stationarity, Data transformation, review SARIMA with ACF and PACF to forecast/predict the time series,( predict the average temp and precipitation of GERD basin).using traditional/algorithmic models.
+where the goal is to predict future weather conditions on the GERD basin based on past observations. Using some of the popular time series forecasting models for weather forecasting
+
+ARIMA (AutoRegressive Integrated Moving Average): ARIMA is a classic time series forecasting method that models the underlying structure in the data and uses this information to make predictions. It is well-suited for weather forecasting because it can capture both short-term and long-term patterns in the data.
+
+SARIMA (Seasonal ARIMA): SARIMA is a variation of ARIMA that includes a seasonal component in the model. This makes it well-suited for weather forecasting, where there are clear seasonal patterns in the data, such as the onset and cessation of rainy seasons.
+
+#### Results
+What did your research find?
+
+#### Outline of project
+
+- [Link to notebook 1]()
+- [Link to notebook 2]()
+- [Link to notebook 3]()
+
+
+##### Contact and Further Information
