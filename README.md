@@ -63,45 +63,45 @@ What did your research find?
 We did the modeling using SARIMA and LSTM from recurrent neural network. For SARIMA we used custom gridserach function to find the order and seasonality hyperparameters for each dataset with lowest mean square error (MSE).
 + **SARIMA** - Seasonal Auto Regression Integrated Moving Average
 
-*Temperature
+- **Temperature**
 
-**Monthly Average
+- Monthly Average
 
 ![Monthly Average](./images/sarima_monthly_average_temp.jpg)
 
-**Weekly average
+- Weekly average
 
 ![Weekly Average](./images/sarima_weekly_agerage_temp.jpg)
 
-*Precipitation
+- **Precipitation**
 
-**Monthly Average
+- Monthly Average
 
 ![Monthly Average](./images/sarima_monthly_average_precip.jpg)
 
-**Weekly average
+- Weekly average
 
-![Weekly Average](./images/sarima_weekly_agerage_precip.jpg)
+![Weekly Average](./images/sarima_weekly_average_precip.jpg)
 
 + **LSTM** - Long short-term Memory
 
-*Temperature
+- **Temperature**
 
-**Monthly Average
+- Monthly Average
 
 ![Monthly Average](./images/lstm_monthly_average_temp.jpg)
 
-**Weekly average
+- Weekly average
 
 ![Weekly Average](./images/lstm_weekly_average_temp.jpg)
 
-*Precipitation
+**Precipitation**
 
-**Monthly Average
+- Monthly Average
 
 ![Monthly Average](./images/lstm_monthly_average_precipitation.jpg)
 
-**Weekly average
+- Weekly average
 
 ![Weekly Average](./images/lstm_weekly_average_precip.jpg)
 
@@ -135,4 +135,4 @@ These analysis and prediction for the GERD basin can be further improved by take
 
 #### Additional resource
 
-- [Link to notebook](Capstone_behailud_main.ipynb)
+- [For all the detailed analysis and work click this link](Capstone_behailud_main.ipynb)
