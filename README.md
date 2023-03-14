@@ -64,7 +64,7 @@ The goal is to predict future weather conditions on the GERD basin based on past
 
 #### Models and Results
 We did the modeling using SARIMA and LSTM from recurrent neural network. For SARIMA we used custom gridserach function to find the order and seasonality hyperparameters for each dataset with lowest mean square error (MSE).
-+ **SARIMA** - Seasonal Auto Regression Integrated Moving Average
+###+ **SARIMA** - Seasonal Auto Regression Integrated Moving Average
 
 - **Temperature**
 
@@ -86,7 +86,7 @@ We did the modeling using SARIMA and LSTM from recurrent neural network. For SAR
 
 ![Weekly Average](./images/sarima_weekly_average_precip.jpg)
 
-+ **LSTM** - Long Short-Term Memory
+###+ **LSTM** - Long Short-Term Memory
 
 - **Temperature**
 
