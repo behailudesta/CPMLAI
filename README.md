@@ -9,6 +9,7 @@ The primary purpose of the dam is electricity production to relieve Ethiopia's a
 ![GERD Dam](./images/dam_1.jpeg)
 
 GERD Water shed.
+
 ![GERD Water Shed](./images/water_shed.PNG)
 
 #### Rationale
@@ -61,30 +62,49 @@ The goal is to predict future weather conditions on the GERD basin based on past
 What did your research find?
 We did the modeling using SARIMA and LSTM from recurrent neural network. For SARIMA we used custom gridserach function to find the order and seasonality hyperparameters for each dataset with lowest mean square error (MSE).
 + **SARIMA** - Seasonal Auto Regression Integrated Moving Average
+
 *Temperature
+
 **Monthly Average
+
 ![Monthly Average](./images/sarima_monthly_average_temp.jpg)
+
 **Weekly average
+
 ![Weekly Average](./images/sarima_weekly_agerage_temp.jpg)
+
 *Precipitation
+
 **Monthly Average
+
 ![Monthly Average](./images/sarima_monthly_average_precip.jpg)
+
 **Weekly average
+
 ![Weekly Average](./images/sarima_weekly_agerage_precip.jpg)
 
 + **LSTM** - Long short-term Memory
+
 *Temperature
+
 **Monthly Average
+
 ![Monthly Average](./images/lstm_monthly_average_temp.jpg)
+
 **Weekly average
+
 ![Weekly Average](./images/lstm_weekly_average_temp.jpg)
+
 *Precipitation
+
 **Monthly Average
+
 ![Monthly Average](./images/lstm_monthly_average_precipitation.jpg)
+
 **Weekly average
+
 ![Weekly Average](./images/lstm_weekly_average_precip.jpg)
 
-More more please visit this [notebook]()
 #### Conclusion and Recommendation for future imporovement
 We couldn't find more data about Dew Point, Humidity, wind speed, visiblity, pressure, etc which definetly help better imporve the quality of our model's prediction/forecast.
 
@@ -100,7 +120,7 @@ Predicting temperature and precipitation for GERD river basin have several benef
 
 **Financial planning:** Predicting temperature and precipitation can also help dam operators plan for future energy demand/shortage and price fluctuations. By forecasting weather patterns and water availability, GERD operators can adjust their operations and pricing strategies to maximize revenue and reduce costs.
 
-Recommendation:
+**Recommendations:**
 These analysis and prediction for the GERD basin can be further improved by takeing the following measures and resoureces.
 
 - High-Quality Data: Accurate and timely data is crucial for a weather forecasting model. We have only data from 2000 to 2019 from University of Guelph which only have temperature and precipitation but adding Dew Point, Humidity, wind speed, visiblity, pressure will definetly further imporve the model's performance
