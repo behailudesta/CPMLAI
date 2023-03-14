@@ -12,6 +12,10 @@ GERD Water shed.
 
 ![GERD Water Shed](./images/water_shed.PNG)
 
+Location of GERD basin on the globe.
+
+![GERD Water Shed](./images/gerd_basin_map.png)
+
 #### Rationale
 The energy generating capacity of Hydroelectric station is directly affected by the amount of water in the reservoir dam, which is directly impacted by the weather/climate conditions of the surrounding area and the river basins feeding to the Dam. So, climate forecasting for this project will help for power budget planning, how much billion meter cube water to keep/release from the dam, estimate the energy production of the station, plan for best time to schedule for maintenance of the station, over all macro/micro economic planning of the region as its tied to energy.
 #### Research Question
@@ -59,7 +63,6 @@ LSTM (Long Short-Term Memory) in AI/ML. LSTM is a type of recurrent neural netwo
 The goal is to predict future weather conditions on the GERD basin based on past observations. Using some of the popular time series forecasting models for weather forecasting.
 
 #### Models and Results
-What did your research find?
 We did the modeling using SARIMA and LSTM from recurrent neural network. For SARIMA we used custom gridserach function to find the order and seasonality hyperparameters for each dataset with lowest mean square error (MSE).
 + **SARIMA** - Seasonal Auto Regression Integrated Moving Average
 
@@ -83,9 +86,9 @@ We did the modeling using SARIMA and LSTM from recurrent neural network. For SAR
 
 ![Weekly Average](./images/sarima_weekly_average_precip.jpg)
 
-+ **LSTM** - Long short-term Memory
++ **LSTM** - Long Short-Term Memory
 
-- **Temperature**
+**Temperature**
 
 - Monthly Average
 
