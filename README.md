@@ -88,7 +88,7 @@ We did the modeling using SARIMA and LSTM from recurrent neural network. For SAR
 
 + **LSTM** - Long Short-Term Memory
 
-**Temperature**
+- **Temperature**
 
 - Monthly Average
 
@@ -98,7 +98,7 @@ We did the modeling using SARIMA and LSTM from recurrent neural network. For SAR
 
 ![Weekly Average](./images/lstm_weekly_average_temp.jpg)
 
-**Precipitation**
+- **Precipitation**
 
 - Monthly Average
 
