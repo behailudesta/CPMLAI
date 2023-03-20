@@ -75,7 +75,7 @@ We did the modeling using SARIMA and LSTM from recurrent neural network. For SAR
 
 - Weekly average
 
-![Weekly Average](./images/sarima_weekly_agerage_temp.jpg)
+![Weekly Average](./images/sarima_weekly_average_temp.jpg)
 
 - **Precipitation**
 
